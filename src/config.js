@@ -59,7 +59,7 @@ const CONTRACT_NAME = 'OUR ZOMBIE PEOPLES GEN X';
 const CONTRACT_SYMBOL = 'OZPGX';
 const CONTRACT_TYPE = 'erc721';
 const MINT_TO_ADDRESS = '0xcdfc1391a6F6638E95d7933cD810E47b386DfD69';
-const CHAIN = 'rinkeby';
+const CHAIN = 'polygon';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xcdfc1391a6F6638E95d7933cD810E47b386DfD69"; // Address that will receive the royalty
