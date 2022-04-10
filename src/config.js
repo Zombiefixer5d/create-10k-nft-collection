@@ -31,6 +31,7 @@ const layerConfigurations = [
       { name: "Noses" },
       { name: "Hair" },
       { name: "Mouth" },
+      { name: "Hats" },
       { name: "Ties" },
     ],
   },
