@@ -28,11 +28,11 @@ const layerConfigurations = [
       { name: "Noses" },
       { name: "Eyes" },
       { name: "Lashes" },
-      { name: "Glasses" },
+      { name: "Ties" },
       { name: "Hair" },
       { name: "Mouth" },
       { name: "Hats" },
-      { name: "Ties" },
+      { name: "Glasses" },
     ],
   },
 ];
