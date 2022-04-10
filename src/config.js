@@ -53,16 +53,16 @@ const extraMetadata = {
 
 // NFTPort Info
 // ** REQUIRED **
-const AUTH = "40b2cb86-3de7-42b9-9857-977ff62febd5";
+const AUTH = "bc92ce5b-3549-481a-b0a8-dbaf00419ec3";
 const LIMIT = 2; // Your API key rate limit
 const CONTRACT_NAME = 'OUR ZOMBIE PEOPLES GEN X';
 const CONTRACT_SYMBOL = 'OZPGX';
 const CONTRACT_TYPE = 'erc721';
-const MINT_TO_ADDRESS = '0xcdfc1391a6F6638E95d7933cD810E47b386DfD69';
+const MINT_TO_ADDRESS = '0xD07fE79d354c5fa2b52C2CF477dD336E87130176';
 const CHAIN = 'polygon';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xcdfc1391a6F6638E95d7933cD810E47b386DfD69"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xD07fE79d354c5fa2b52C2CF477dD336E87130176"; // Address that will receive the royalty
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
