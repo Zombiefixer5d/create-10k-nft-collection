@@ -21,18 +21,18 @@ const layerConfigurations = [
       { name: "Background Top" },
       { name: "Background Top Left" },
       { name: "Background Top Right" },
-      { name: "Top lid" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
-      { name: "Background" },
+      { name: "Logo" },
+      { name: "Scars" },
+      { name: "Scars Left" },
+      { name: "Scars Right" },
+      { name: "Noses" },
+      { name: "Mouth" },
+      { name: "Eyes" },
+      { name: "Lashes" },
+      { name: "Glasses" },
+      { name: "Hair" },
+      { name: "Hats" },
+      { name: "Ties" },
     ],
   },
 ];
@@ -42,13 +42,13 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 3000,
+  height: 3000,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://zombiepeoples.netlify.app/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
