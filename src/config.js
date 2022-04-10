@@ -6,22 +6,33 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "OUR ZOMBIE PEOPLES GEN X";
+const description = "Our Zombie World is a world of absolute inclusion EVERYBODY is equal in Zombie World no matter the race,sex,or color";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
+      { name: "Background Bottom Left" },
+      { name: "Background Bottom Right" },
+      { name: "Background Top" },
+      { name: "Background Top Left" },
+      { name: "Background Top Right" },
       { name: "Top lid" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
+      { name: "Background" },
     ],
   },
 ];
