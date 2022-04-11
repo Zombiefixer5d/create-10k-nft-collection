@@ -6,22 +6,33 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "OUR ZOMBIE PEOPLES GEN Z";
+const description = "Our Zombie World is a world of absolute inclusion EVERYBODY is equal in Zombie World no matter the race,sex,or color";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Background Bottom Left" },
+      { name: "Background Bottom Right" },
+      { name: "Background Top" },
+      { name: "Background Top Left" },
+      { name: "Background Top Right" },
+      { name: "Logo" },
+      { name: "Scars" },
+      { name: "Scars Left" },
+      { name: "Scars Right" },
+      { name: "Noses" },
+      { name: "Eyes" },
+      { name: "Lashes" },
+      { name: "Ties" },
+      { name: "Hair" },
+      { name: "Mouth" },
+      { name: "Hats" },
+      { name: "Glasses" },
     ],
   },
 ];
@@ -31,27 +42,27 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 3000,
+  height: 3000,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://zombiepeoples.netlify.app/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
 // ** REQUIRED **
-const AUTH = "YOUR API KEY HERE";
+const AUTH = "bc92ce5b-3549-481a-b0a8-dbaf00419ec3";
 const LIMIT = 2; // Your API key rate limit
-const CONTRACT_NAME = 'CRYPTOPUNKS';
-const CONTRACT_SYMBOL = 'CP';
+const CONTRACT_NAME = 'OUR ZOMBIE PEOPLES GEN Z';
+const CONTRACT_SYMBOL = 'OZPGZ';
 const CONTRACT_TYPE = 'erc721';
-const MINT_TO_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const CHAIN = 'rinkeby';
+const MINT_TO_ADDRESS = '0xD07fE79d354c5fa2b52C2CF477dD336E87130176';
+const CHAIN = 'polygon';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xD07fE79d354c5fa2b52C2CF477dD336E87130176"; // Address that will receive the royalty
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
@@ -80,7 +91,7 @@ try {
 
 const solanaMetadata = {
   symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 100, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
