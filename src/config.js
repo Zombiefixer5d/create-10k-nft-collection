@@ -53,7 +53,7 @@ const extraMetadata = {
 
 // NFTPort Info
 // ** REQUIRED **
-const AUTH = "bc92ce5b-3549-481a-b0a8-dbaf00419ec3";
+const AUTH = "c9dac370-193d-43ee-a003-07336a2e2ecb";
 const LIMIT = 2; // Your API key rate limit
 const CONTRACT_NAME = 'ZOMBEEEZZ';
 const CONTRACT_SYMBOL = 'ZOMZ';
