@@ -58,11 +58,11 @@ const LIMIT = 10; // Your API key rate limit
 const CONTRACT_NAME = 'ZOMBEEEZZ';
 const CONTRACT_SYMBOL = 'ZOMZ';
 const CONTRACT_TYPE = 'erc721';
-const MINT_TO_ADDRESS = '0x26ff414B0621aBfA6795Aa4a4346f63843e0EcFb';
+const MINT_TO_ADDRESS = '0x8AC0518C3Eb576909f223F3C056a516387D1BaA7';
 const CHAIN = 'polygon';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x26ff414B0621aBfA6795Aa4a4346f63843e0EcFb"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x8AC0518C3Eb576909f223F3C056a516387D1BaA7"; // Address that will receive the royalty
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
