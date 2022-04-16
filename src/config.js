@@ -66,7 +66,7 @@ const ROYALTY_ADDRESS = "0x8AC0518C3Eb576909f223F3C056a516387D1BaA7"; // Address
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = "Unknown"; // Replace with what you want the generic titles to say.
 const GENERIC_DESCRIPTION = "Unknown"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = [
