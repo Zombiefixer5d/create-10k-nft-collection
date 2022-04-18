@@ -48,13 +48,13 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://zombiepeoples.netlify.app/", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://withkoji.com/@ZombieMan5d", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
 // ** REQUIRED **
 const AUTH = "c9dac370-193d-43ee-a003-07336a2e2ecb";
-const LIMIT = 2; // Your API key rate limit
+const LIMIT = 10; // Your API key rate limit
 const CONTRACT_NAME = 'ZOMBEEEZZ';
 const CONTRACT_SYMBOL = 'ZOMZ';
 const CONTRACT_TYPE = 'erc721';
@@ -67,8 +67,8 @@ const ROYALTY_ADDRESS = "0x8AC0518C3Eb576909f223F3C056a516387D1BaA7"; // Address
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = "Unknown"; // Replace with what you want the generic titles to say.
-const GENERIC_DESCRIPTION = "Unknown"; // Replace with what you want the generic descriptions to say.
+const GENERIC_TITLE = "ZOMBEEEZZ"; // Replace with what you want the generic titles to say.
+const GENERIC_DESCRIPTION = "My Zombezzz collection is based on my logo from my company Zombie Computers Our Zombie World is a world of absolute inclusion EVERYBODY is equal in Zombie World no matter the race,sex,or color. Don't be a Fuc#@d up Human Be a ZOMBEZZZ!!!"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = [
   "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh",
 ]; // Replace with your generic image(s). If multiple, separate with a comma.
