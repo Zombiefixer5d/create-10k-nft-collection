@@ -176,7 +176,7 @@ async function reveal() {
 if (START) {
   reveal();
 } else {
-  if(CHAIN === 'rinkeby') {
+  if(CHAIN === 'polygon') {
     console.log('Rinkeby is not supported for checking ownership of NFTs.');
     process.exit(1);
   }
